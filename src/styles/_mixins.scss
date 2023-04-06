@@ -1,0 +1,26 @@
+// @mixin flex () {
+//     display: flex;   
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .container{
+//     @include flex();
+// }
+
+@mixin desktop() {
+    @media (min-width: 800px) {
+        @content;
+    }
+}
+
+.button {
+    transition: 0.3s;
+
+    @include desktop() {
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
+}
