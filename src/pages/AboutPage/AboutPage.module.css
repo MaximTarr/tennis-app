@@ -1,0 +1,15 @@
+
+
+.main{
+    min-height: var(--height, 100vh);
+}
+
+.header{
+    background-color: hsla(240, 40%, 60%, 1);
+    height: 100px;
+}
+
+.footer{
+    background-color: hsla(240, 40%, 60%, 1);
+    height: 100px;
+}
