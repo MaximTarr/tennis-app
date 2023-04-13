@@ -1,5 +1,7 @@
 import React from "react";
+
 import Router from "./Router";
+import Clock from "./components/Clock";
 import HeightSetter from "./components/Helper/HeightSetter"
 
 

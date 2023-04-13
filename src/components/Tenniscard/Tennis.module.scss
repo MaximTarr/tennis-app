@@ -1,0 +1,28 @@
+@import "~/src/styles/mixins";
+
+.mainDiv {
+    @include container();
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+
+.dateClass {
+    text-align: left;
+    font-size: small;
+    color: #333333;
+}
+
+.moreBtn {
+    width: 100px;
+    height: 35px;
+    float: left;
+    background-color: #8D86C9;
+    border: none;
+}
+
+.moreBtn:hover {
+    background-color: #6a6690;
+}
+
